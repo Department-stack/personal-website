@@ -1,0 +1,115 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script>location.replace(location.pathname + "#home");</script>
+    <noscript><meta http-equiv="refresh" content="0;url=/#home"></noscript>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="97% of this websites code isnt mine lol">
+	<meta name="author" content="Teto lover">
+	<title>Saiku ツ</title>
+	<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+	<link rel="canonical" href="https://www.saiku.org">
+	<script type="module" src="/src/js/main.js" defer></script>
+	<link rel="preload" as="font" href="/assets/fonts/terminus-webfont.woff2" type="font/woff2" crossorigin="anonymous">
+	<link rel="stylesheet" href="/assets/css/style.css?v=4"> <!-- increase version after significant changes to prevent browsers from using a old cached version (cache busting) -->
+	<meta property="og:title" content="Saiku">
+	<meta property="og:description" content="97% of this websites code isnt mine lol">
+	<meta property="og:image" content="sry i like teto">
+	<meta property="og:url" content="https://www.saiku.org">
+	<meta name="keywords" content="Self host, blog, services, linux">
+	<meta name="robots" content="index, follow">
+	<meta name="revisit-after" content="7 days">
+	<style>
+        .no-fouc {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body class="no-fouc">
+	<script>
+		// prevent unstyled content css flash in firefox
+        document.addEventListener('DOMContentLoaded', function() {
+            document.body.classList.remove('no-fouc');
+        });
+	</script>
+	<noscript>
+		<h2 id="noscript-warning">You are viewing a limited version of this site because JavaScript is disabled.</h2>
+		<style>
+			.no-fouc {
+				visibility: visible;
+			}
+			.hide-noscript {
+				display: none;
+			}
+			#noscript-warning {
+				color: rgb(245, 67, 67);
+				text-align: center;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				padding: 1em;
+			}
+		</style>
+	</noscript>
+	<video
+		id="rain-vid"
+		preload="metadata"
+		playsinline>
+	</video>
+	<img id="grunge-overlay" loading="lazy">
+	<img id="noise-overlay" loading="lazy">
+	<div id="snow-container"></div>
+	<div id="canvas">
+		<br>
+		<nav id="nav-tabs">
+			<ul>
+				<br>
+				<li><a id="home-tab" class="tab-switcher" href="#home"> Home</a></li>
+				<li><a id="404-tab" class="tab-switcher" href="404"> 404</a></li>
+			</ul>
+		</nav>
+		<div id="home" class="tabs">
+			<div class="grid">
+				<div class="grid-row">
+					<div class="grid-row-box">
+						<h2 id="welcome-title">Welcome!</h2>
+						<p><em>★ Updated on DECEMBER 2ND, 2025:</em></p>
+						<br>
+						<p>Hello, this website is a little personal project of mine. Its really bare-bones right now, however I intend to add more content at a later date</p>
+					</div>
+				</div>
+				<div class="grid-row">
+					<div class="grid-row-box">
+						<details open>
+							<summary>
+								<h2>Latest Updates</h2>
+							</summary>
+							<div id="update-list">
+								<p><em>⚠ SERVER AVAILABILITY NOTICE </em> You may have noticed the website & servers often being down recently. This is because the network adapter is malfunctioning, a replacement will arrive near new years</p>
+								<p><em> ☟ UPDATES</p>
+								<p><em> ★ AUGUST 18TH, 2025:</em> Minecraft server is up, ip: saiku.org</p>
+								<p><em> ★ DECEMBER 2ND, 2025:</em> Created some servers for the blade & sorcery mod Adammantium Multiplayer. Check bns.devforce.de for more information</p>
+								<p><em> ⎙ INFORMATION </p>
+								<p><em> 🖴 SERVER SPECS:</em> Dell Optiplex 5050, i5-7600, 16GB DDR4, running on fedora</p>
+								<p><em> ☎ CONTACT:</em> Matrix: succulentclamshell:unredacted.org Email: Willedoutlast@tuta.io </p>
+							</div>
+						</details>
+					</div>
+					<div class="grid-row-box grid-row-box-shrink hide-noscript">
+						<div id="theme-selector">
+							<details open>
+								<summary>
+									<h2>Themes</h2>
+								</summary>
+								<div id="theme-list"></div>
+							</details>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
