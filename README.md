@@ -1,10 +1,6 @@
 # Saiku - Webpage
 
-Github-Repository of my personal webpage. Including news, projects, picture grid, about and contact information.
-Made using vanilla HTML/CSS and JavaScript. Also includes basic responsiveness.
-
-Featuring a design inspired by old vintage terminals and cyberpunk!
-Now supports themes.
+Github-Repository of my personal webpage
 
 
 ## License
