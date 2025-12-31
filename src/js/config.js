@@ -1,5 +1,5 @@
 export const CONFIG = {
-	defaultTheme: 'deepsea',
+	defaultTheme: 'cherry',
 	seasonalTheme: false, // will change the default theme based on the date
 
 	// effects
@@ -19,7 +19,7 @@ export const CONFIG = {
 
 	// blog
 	blogUrl: 'https://saiku.org/blog.xml', // example: '/src/example/blog.xml'
-	useExample: true,
+	useExample: false,
 	writeAnimationOnPostOpen: true,
 	showEstimatedReadTime: true,
 };

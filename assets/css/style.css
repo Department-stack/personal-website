@@ -78,7 +78,7 @@ body {
 }
 
 #grunge-overlay {
-	background: url('/assets/images/grunge.jpg');
+	background: url('/assets/images/grunge.webp');
 	background-size: cover;
 	mix-blend-mode: color-dodge;
 	opacity: var(--grunge-overlay-opacity);
@@ -86,22 +86,22 @@ body {
 
 @keyframes noise {
 	0% {
-		background: url('/assets/images/noise-textures/noisy-texture-200x200-1.png');
+		background: url('/assets/images/noise-textures/noisy-texture-200x200-1.webp');
 	}
 	25% {
-		background: url('/assets/images/noise-textures/noisy-texture-200x200-2.png');
+		background: url('/assets/images/noise-textures/noisy-texture-200x200-2.webp');
 	}
 	50% {
-		background: url('/assets/images/noise-textures/noisy-texture-200x200-3.png');
+		background: url('/assets/images/noise-textures/noisy-texture-200x200-3.webp');
 	}
 	75% {
-		background: url('/assets/images/noise-textures/noisy-texture-200x200-4.png');
+		background: url('/assets/images/noise-textures/noisy-texture-200x200-4.webp');
 	}
 }
 
 #noise-overlay {
 	background-blend-mode: multiply;
-	background: url('/assets/images/noise-textures/noisy-texture-200x200-1.png');
+	background: url('/assets/images/noise-textures/noisy-texture-200x200-1.webp');
 	filter: contrast(1.5) brightness(0.4) hue-rotate(90deg);
 	opacity: var(--noise-opacity);
 
